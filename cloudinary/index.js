@@ -1,10 +1,6 @@
 const cloudinary = require("cloudinary").v2;
 const { CloudinaryStorage } = require("multer-storage-cloudinary");
 
-// CLOUDINARY_URL="cloudinary://286739341587939:bAeXYUMjmMQldlCbm2fPBECVlnQ@trubacamp";
-CLOUDINARY_CLOUD_NAME = "trubacamp";
-CLOUDINARY_KEY = 286739341587939;
-CLOUDINARY_SECRET = "bAeXYUMjmMQldlCbm2fPBECVlnQ";
 
 cloudinary.config({
   cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
